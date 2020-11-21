@@ -3,7 +3,7 @@
 #### 介绍
 1. cat应用监控系统的docker镜像的快速构建   
 2. 快速搭建Cat服务端程序
-3. (官方文档)[https://github.com/dianping/cat/wiki/intro]
+3. [查看官方文档](https://github.com/dianping/cat/wiki/intro)
 
 
 #### 说明
