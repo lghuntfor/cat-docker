@@ -27,8 +27,9 @@ jetty/webapps下的cat.war是已经构建好的cat程序包, 版本是3.0.0
 4. 运行容器
 ```
 docker run -d --restart=always --name cat-server -p 2280:2280 -p 2281:2281 -v /data/appdatas:/data/appdatas 
-\ -v /data/applogs:/data/applogs  lghuntfor/cat:3.0.0
+\ -v /data/applogs:/data/applogs  lghuntfor/cat:3.0.0 
 ```
+5. 访问: http://ip:2281/cat
 
 
 #### 直接使用现成docker镜像
