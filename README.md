@@ -1,8 +1,8 @@
 # cat-docker
 
 #### 介绍
-1.cat应用监控系统的docker镜像的快速构建
-2.快速搭建Cat服务端程序
+1. cat应用监控系统的docker镜像的快速构建   
+2. 快速搭建Cat服务端程序
 
 #### 说明
 jetty/webapps下的cat.war是已经构建好的cat程序包, 版本是3.0.0
