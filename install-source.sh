@@ -13,6 +13,6 @@ chmod 777 /data/applogs
 
 #拷贝文件
 cp ./client.xml $DATA_DIR
-cp ./datasources.xml $LOG_DIR
+cp ./datasources.xml $DATA_DIR
 
 

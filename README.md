@@ -36,12 +36,10 @@ docker run -d --restart=always --name cat-server -p 2280:2280 -p 2281:2281 -v /d
 
 
 #### 直接使用现成docker镜像
-直接使用docker hub中构建好的镜像部署cat
+操作完1,2,3步后, 直接使用docker hub中构建好的镜像部署cat
 
 ```
 docker pull lghuntfor/cat:3.0.0
-或 docker pull lghuntfor/cat:3.0.0
 
 启动容器: 
-docker run -d --restart=always --name cat-server -p 2280:2280 -p 2281:2281 -v /data/appdatas:/data/appdatas 
-\ -v /data/applogs:/data/applogs  lghuntfor/cat:3.0.0
+docker run -d --restart=always --name cat-server -p 2280:2280 -p 2281:2281 -v /data/appdatas:/data/appdatas -v /data/applogs:/data/applogs  lghuntfor/cat:3.0.0
